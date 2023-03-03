@@ -1,0 +1,21 @@
+* body { margin: 0; padding: 0; box-sizing: border-box; }
+
+h1 { margin: 75px; font-size: 65px; }
+.txt_center { text-align: center; }
+
+.section {
+  border: 1px solid;
+  max-width: 1300px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.items {
+  background-color: grey;
+  border: 2px solid;
+  height: 200px;
+  width: 300px;
+}
